@@ -1,0 +1,91 @@
+.App{
+    background-color: rgb(136, 133, 133);
+    margin: 0px;
+    padding: 0px;
+}
+
+.upper{
+    background-color: darkgoldenrod;
+    text-align: center;
+}
+.upper:hover{
+    background-color: blueviolet;
+}
+h1{
+    text-shadow: 3px 3px 0 rgb(237, 12, 12);
+}
+.list{
+    display: flex;
+    gap: 20px;
+    margin-left: 40%;
+    list-style-type: none;
+    font-size: large;
+}
+li:hover{
+    color: blue;
+    background-color: rgb(140, 118, 161);
+    text-shadow: 1px 2px 1px rgb(237, 12, 12);
+    font-size: larger;
+    font-weight: bold;
+}
+h5{
+    text-align: right;
+    color: blue;
+}
+.middle{
+    display: flex;
+    gap: 30px;
+    margin-left: 15px;
+}
+
+.pic{
+    height: 250px;
+    width: 350px;
+    box-shadow: 7px 9px 15px black;
+}
+.pic:hover{
+    box-shadow: 7px 9px 20px rgb(41, 21, 198);
+    height: 270px;
+    width: 370px;
+}
+.fun{
+    line-height: 20px;
+}
+h2{
+    text-align: center;
+    color: rgb(227, 6, 6);
+    text-shadow: 3px 3px 2px rgb(12, 12, 237);
+}
+h2:hover{
+    font-size: xx-large;
+}
+.func{
+    display: flex;
+    gap: 20px;
+    margin-left: 40px;
+    list-style-type: none;
+}
+.line1{
+    color: #555050;
+    font-size: 16px;
+}
+.line2{
+    color: #555050;
+    font-size: 16px;
+}
+.lower{
+    background-color: darkgoldenrod;
+    text-align: center;
+}
+.lower:hover{
+    background-color: blueviolet;
+}
+h3{
+        text-shadow: 3px 3px 0 rgb(237, 12, 12);
+        font-size: x-large;
+}
+p{
+  margin: 0 350px 0 350px;
+  font-size: 16px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
